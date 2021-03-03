@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "415992909290",
-    "project_id": "notification-lecture-b0e5d",
-    "storage_bucket": "notification-lecture-b0e5d.appspot.com"
+    "project_number": "736407881195",
+    "project_id": "my-awesome-36639",
+    "storage_bucket": "my-awesome-36639.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:415992909290:android:e0aac8c7c1f1efb9c47693",
+        "mobilesdk_app_id": "1:736407881195:android:daf8247444c070e85dc5ae",
         "android_client_info": {
           "package_name": "com.reactnativelecture"
         }
       },
       "oauth_client": [
         {
-          "client_id": "415992909290-dehklhmqcehp5gfjequ2gtenk5obspf6.apps.googleusercontent.com",
+          "client_id": "736407881195-fhndqsv8l0f8n14ableh6hfc70tnq2lq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBRL7_rj3hmtYaCak4d6jTbpCg7HgnhIUI"
+          "current_key": "AIzaSyAONLVu-q7Ie-k0cavVXwfQsI9NUh2liRM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "415992909290-dehklhmqcehp5gfjequ2gtenk5obspf6.apps.googleusercontent.com",
+              "client_id": "736407881195-fhndqsv8l0f8n14ableh6hfc70tnq2lq.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

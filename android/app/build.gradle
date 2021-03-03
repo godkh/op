@@ -197,6 +197,7 @@ android {
 }
 
 dependencies {
+    // Add the SDK for Firebase Cloud Messaging
     implementation 'com.google.firebase:firebase-messaging:20.2.3'
 
     implementation fileTree(dir: "libs", include: ["*.jar"])

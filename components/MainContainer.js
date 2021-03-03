@@ -58,7 +58,6 @@ const screenOptions = ({ route }) => ({
     let iconName;
 
     switch(route.name){
-      // focus가 있으면 'home', 'home-outline'
       case 'Home':
         iconName = focused
           ? 'home'
