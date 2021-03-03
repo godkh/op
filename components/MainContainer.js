@@ -45,7 +45,7 @@ const ListStackScreen = () => {
 const TaskStackScreen = () => {
   return (
     <TaskStack.Navigator>
-      <TaskStack.Screen name="Tasks" component={Tasks} options={{title:"Tasks", headerTitleAlign:"center"}} />
+      <TaskStack.Screen name="LIKES" component={Tasks} options={{title:"LIKES", headerTitleAlign:"center"}} />
       <TaskStack.Screen name="Details" component={Details} options={{title:"Details", headerTitleAlign:"center"}}  />
     </TaskStack.Navigator>
   )
@@ -69,14 +69,13 @@ const screenOptions = ({ route }) => ({
           ? 'list'
           : 'list-outline'; 
         break;
-      case 'Tasks':
+      case 'LIKES':
         iconName = focused
-          ? 'checkmark'
-          : 'checkmark-outline'; 
+          ? 'heart'
+          : 'heart-outline'; 
         break;       
     }
     
-    // You can return any component that you like here!
     return <Ionicons name={iconName} size={size} color={color} />;
   },
 })
@@ -91,7 +90,6 @@ export default function Main() {
 
   useEffect(()=>{
     console.log("-- main is mounted--")
-    // back-end에서 tasks 데이터를 가져오고, global state를 갱신
     dispatch({type:"FETCH_TASKS"})
   }, [])
 
@@ -130,7 +128,7 @@ export default function Main() {
         <Tab.Navigator screenOptions={screenOptions} tabBarOptions={tabBarOptions}>
           <Tab.Screen name="Home" component={HomeStackScreen} />
           <Tab.Screen name="List" component={ListStackScreen} />
-          <Tab.Screen name="Tasks" component={TaskStackScreen} />
+          <Tab.Screen name="LIKES" component={TaskStackScreen} />
         </Tab.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
